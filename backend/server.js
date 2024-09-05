@@ -47,8 +47,8 @@ app.post("/create-checkout-session",async (req,res)=>{
         payment_method_types : ["card"],
         line_items : lineItems,
         mode : "payment",
-        success_url : "https://sangam-project-4tr7.vercel.app/paymentsuccess",
-        cancel_url : "https://sangam-project-4tr7.vercel.app/cancelPayment"
+        success_url : "https://ecommerce-website-lol2.vercel.app/paymentsuccess",
+        cancel_url : "https://ecommerce-website-lol2.vercel.app/cancelPayment"
     });
 
     const order = new Order({
