@@ -39,7 +39,7 @@ const Checkout = () => {
             products: cartItems,
         };
         try {
-            const stripe = await loadStripe('pk_test_51PQ23NKhZAmovhQkSKdZwZLJ8t4f7QKqZZ9BLNfT86xtaPAEEp5ICEWuKa1JpEvTXK7lxuHb4sjUk2wZ6FAU0uOX00KiQ8o3k8');
+            const stripe = await loadStripe('pk_test_51PeXiWAGh1lFpzWAk8mrNXE2AqE1psATjF3nyL4JKJm022fSmD6zBz9MADtMFRyOoLvq9gI7Vn6bzmRxSmIbKORN00wPQkrIPx');
             const body = orderDetails
 
             const response = await axios.post(`${import.meta.env.VITE_API_URI}/create-checkout-session`, body);

@@ -7,7 +7,7 @@ const cors = require("cors");
 // const multer = require("multer");
 const path = require("path");
 const Order = require("./model/order")
-const stripe = require("stripe")("sk_test_51PQ23NKhZAmovhQkXOdFXfAunfNMJE8uHnXbbfBGksOMirucY7PwsikhvEvYaynFx5l3xvZvH5IYJrXPOuvbrHlb00Cge3ywXo");
+const stripe = require("stripe")("sk_test_51PeXiWAGh1lFpzWAPn5Nq8mVe6ePLKrowLvQ7u4R6WUJRJZmc9r7w3Ur2JH8cBQsSAi5w24vu2MBFwAbRBnu9FBj00nlTDQPmp");
 
 const app = express();
 
