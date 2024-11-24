@@ -23,9 +23,9 @@ const Checkout = () => {
 
     console.log(user)
 
-    //   useEffect(() => {
-    //     dispatch(getCartItems(userId));
-    //   }, [dispatch, userId]);
+      // useEffect(() => {
+      //   dispatch(getCartItems(userId));
+      // }, [dispatch, userId]);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
